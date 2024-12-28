@@ -9,7 +9,13 @@ const port = process.env.PORT || 5000;
 
 // Middleware
 app.use(bodyParser.json());
-app.use(cors());
+app.use(cors(
+  {
+    origin: ["https://portfolio-q4t1.vercel.app/"],
+    methods: ["POST", "GET"],
+    credentials : true
+  }
+));
 
 // Connect to MongoDB
 mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
