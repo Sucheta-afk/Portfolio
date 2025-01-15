@@ -77,31 +77,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
-              <div className="card rounded">
-                <div className="card-image">
-                  <span className="card-notify-badge">ML</span>
-                  <img
-                    src="https://i0.wp.com/geraldmillerlawyer.com/wp-content/uploads/2021/01/Is-Forgery-a-Felony-in-Minnesota.jpg"
-                    alt="project1"
-                  />
-                </div>
-                <div className="card-image-overly m-auto mt-3">
-                  <span className="card-detail-badge">CNN Model</span>
-                  
-
-                  <span className="card-detail-badge">Machine Learning</span>
-                </div>
-                <div className="card-body text-center">
-                  <div className="ad-title m-auto">
-                    <h5 className="text-uppercase">Techinfoyt Job Portal</h5>
-                  </div>
-                  <a className="ad-btn" href="view">
-                    View
-                  </a>
-                </div>
-              </div>
-            </div>
+            
           
         </div>
       </div>
